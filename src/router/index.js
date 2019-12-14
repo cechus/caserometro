@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import formSeller from '../components/FormSeller.vue'
 import formProduct from '../components/FormProduct.vue'
+import stats from '../components/Stats.vue'
+import share from '../components/Share.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/registrar-producto',
     name: 'formProduct',
     component: formProduct
+  },
+  {
+    path: '/estadisticas',
+    name: 'stats',
+    component: stats
+  },
+  {
+    path: '/share',
+    name: 'share',
+    component: share
   },
   {
     path: '/about',

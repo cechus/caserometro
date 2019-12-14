@@ -23,10 +23,10 @@
             </router-link>
             </div>
             <div class="flex flex-col items-center w-1/2 m-1">
-            <router-link to="/share">
+            <a href="http://192.168.43.151:8081">
                 <img src="/share.png" width="80%" alt="">
                 <h3 class="font-semibold text-gray-800">Difundir Producto</h3>
-            </router-link>
+            </a>
             </div>
         </div>
     </div>

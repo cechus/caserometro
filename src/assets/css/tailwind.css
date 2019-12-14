@@ -19,11 +19,11 @@
 .btn-gray {
   @apply bg-gray-500 text-gray-800;
 }
-.btn-gray:hover {
+/* .btn-gray:hover {
     @apply bg-gray-400;
 }
 .btn-gray:active{
     @apply bg-gray-600;
-}
+} */
 
 @tailwind utilities;
